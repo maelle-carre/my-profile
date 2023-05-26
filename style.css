@@ -1,0 +1,111 @@
+  <style>
+      body {
+        background-color: #FFFFFF; /* fond de la page blanc */
+        font-family: "Open Sans", Arial, sans-serif;
+        margin: 0 auto
+      }
+
+      h1 {
+        font-family: "Goody Stoot", cursive;
+        color: #FDE9D5; 
+
+      }
+      p {
+        color: rgb(255,255, 255); /* paragraphes en blanc */
+        font-family: "Open Sans", Arial, sans-serif;
+      }
+
+      .bloc {
+        background-color: #89556A; /* couleur de fond pour tous les blocs */
+        border-radius: 20px; /* coins arrondis à 20° pour tous les blocs */
+        text-align: center; /* centrage horizontal pour tous les blocs */
+        padding: 10px; /* espacement intérieur pour tous les blocs */
+        margin: 15px auto; /* centrage vertical pour tous les blocs */
+        max-width: 500px; /* largeur maximale pour tous les blocs */
+        box-shadow: 15px 10px 30px #E4C2CB
+      }
+
+      .bloc img {
+       max-width: 40%; /* image à 40% de la largeur du bloc */
+       border-radius: 50%; /* image à 50% de la largeur du bloc */
+      
+      }
+
+      .img-circle {
+        width: 300px;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.1);
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+      }
+
+      .card-white {
+        background-color: whitesmoke;
+        padding: 40px;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin: 20px 0px;
+        text-align: center;
+      }
+        /* Social media icons */
+        .fa-facebook {
+         color: #A3CEF6; 
+          font-size: 3em;
+        }
+
+        .fa-instagram {
+         color: #A3CEF6; 
+          font-size: 3em;
+        }
+
+        .fa-linkedin {
+        color: #A3CEF6; 
+          font-size: 3em;
+        }
+
+        ul {
+          list-style-type: none; /* Supprimer les bullet points */
+          padding-left: 0; /* Supprimer la marge gauche*/
+          display flex; /* Aligner les éléments horizontalement */
+          justify-content: center; /* Centrer les éléments horizontalement */
+          text-align: center;
+          grid-row-gap:  15; /* Espace de 15px entre les éléments */
+        }
+
+        .list-inline li {
+          display: inline-block; /* Aligner les éléments sur une ligne */
+          padding: 15px;
+          content: center
+        }
+
+          .container {
+            max-width: 700px
+            margin: 0 auto;
+          }
+ 
+        @media (max-width: 960px) {
+          /* For a screen < 960px, this CSS will be read */
+          .container {
+            width: 700px;
+            margin: 0 auto;
+          }
+        }
+        @media (max-width: 720px) {
+          /* For a screen < 720px, this CSS will be read */
+          .container {
+            width: 500px;
+            margin: 0 auto;
+          }
+        }
+        @media (max-width: 540px) {
+          /* For a screen < 540px, this CSS will be read */
+          .container {
+            width: 300px;
+            margin: 0 auto;
+         }
+        </style>
+
+
+
+
